@@ -24,7 +24,7 @@
         define('DB_NAME', 'wordpress_db');
         /** Live environment Cloud SQL login and SITE_URL info */
         /** Note that from App Engine, the password is not required, so leave it blank here */
-        define('DB_HOST', ':/cloudsql/your-project-id:wordpress');
+        define('DB_HOST', ':/cloudsql/your-project-id:wordpress-1161992');
         define('DB_USER', 'root');
         define('DB_PASSWORD', '');
     } else {
@@ -33,7 +33,7 @@
         /** Local environment MySQL login info */
         define('DB_HOST', '127.0.0.1');
         define('DB_USER', 'root');
-        define('DB_PASSWORD', 'password');
+        define('DB_PASSWORD', '');
     }
 
     // Determine HTTP or HTTPS, then set WP_SITEURL and WP_HOME
